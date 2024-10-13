@@ -1,0 +1,18 @@
+{
+  "signupUsersList": [
+    {
+      "id": "f364",
+      "name": "Bahaa Aldin Abdel Nasser",
+      "email": "bdalnaser069@gmail.com",
+      "password": "5634561234",
+      "terms": true
+    },
+    {
+      "id": "202c",
+      "name": "Bahaa Aldin Abdel Nasser",
+      "email": "bahaaldin.abdel500258@compit.aun.edu.eg",
+      "password": "jkfgjgdhjcghj",
+      "terms": true
+    }
+  ]
+}
