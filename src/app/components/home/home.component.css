@@ -1,7 +1,7 @@
 @media(min-width:1200px) {
 
 
-    .parent2 {
+    /* .parent2 {
         display: inline-block;
         display: flex;
         margin-left: 100px;
@@ -24,8 +24,11 @@
         border-radius: 8px;
         background-color: #5A2006;
         color: white;
+    } */
+    .mainBox{
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
-
     .parent2 select:hover {
         background-color: #C17A46;
         border: 1px solid #C17A46;
@@ -343,47 +346,9 @@
 
 @media (min-width: 769px) and (max-width: 1199px) {
 
-    .parent2 {
-        display: inline-block;
-        display: flex;
-        margin-left: 100px;
-        margin-right: 100px;
+    .mainBox{
         margin-top: 20px;
-    }
-
-    .parent2 input {
-        width: 1200px;
-        border-radius: 8px;
-        padding: 8px;
-        border: 1px solid rgba(128, 128, 128, 0.294);
-        ;
-        background-color: rgba(128, 128, 128, 0.294);
-    }
-
-    .parent2 button {
-        margin-left: 30px;
-        width: 107px;
-        border-radius: 8px;
-        background-color: #5A2006;
-        color: white;
-        border: 1px solid #5A2006;
-
-    }
-
-    .parent2 select {
-        margin-left: 30px;
-        width: 107px;
-        border-radius: 8px;
-        background-color: #5A2006;
-        color: white;
-        border: 1px solid #5A2006;
-
-    }
-
-    .parent2 select:hover {
-        background-color: #C17A46;
-        border: 1px solid #C17A46;
-        color: white;
+        margin-bottom: 30px;
     }
 
     .parent2 button:hover {
@@ -397,7 +362,7 @@
         margin-left: 100px;
         margin-right: 100px;
         margin-top: 20px;
-        background-image: url('https://s3-alpha-sig.figma.com/img/e6a9/ff0a/bfe597e3ef0fe641cf827efc9e3be23c?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iakVdCscD0mTNjDaLzI~HyIqdv73-is4AjL-EjT2nMPUICxhfCSYlfsjCz-oeXAdT49VhEwvAZ1nEfFdwWDIQFlY96pn7aeyPTHjs3rtVHY-n416XQ5WbeZApPohdStMied15nrySKKrIv6Tb0fCRpNQx~Sf9~Nr0KObodB7V8Zdc~nv01kdqm4QRncQiUd0QhdKVEj6MiCdgi~oTPpy-t89MGhnNxj3zQhp~drfJItXDwiyUzW3NKF0AIQ0GdbsABb7P3YmshziQwLOQ1SmV96q8OZsN47EKoTkkmD~b-Kx4peq6vwUAPzZiHfSm8V7Z5qyFDq32CONFwQamxwGxA__');
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('/home/bfe597e3ef0fe641cf827efc9e3be23c.jpeg') lightgray 50% / cover no-repeat;
         /* background-image: url('..\Library\public\imges\bfe597e3ef0fe641cf827efc9e3be23c.jpeg'); */
         background-size: cover;
         background-repeat: no-repeat;
@@ -662,7 +627,11 @@
 
 @media (min-width: 500px) and (max-width: 768px) {
 
-    .parent2 {
+    .mainBox{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    /* .parent2 {
         display: inline-block;
         display: flex;
         margin-left: 100px;
@@ -687,7 +656,7 @@
         color: white;
         border: 1px solid #5A2006;
 
-    }
+    } */
 
     .parent2 select {
         margin-left: 30px;
@@ -716,7 +685,7 @@
         margin-left: 100px;
         margin-right: 100px;
         margin-top: 20px;
-        background-image: url('https://s3-alpha-sig.figma.com/img/e6a9/ff0a/bfe597e3ef0fe641cf827efc9e3be23c?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iakVdCscD0mTNjDaLzI~HyIqdv73-is4AjL-EjT2nMPUICxhfCSYlfsjCz-oeXAdT49VhEwvAZ1nEfFdwWDIQFlY96pn7aeyPTHjs3rtVHY-n416XQ5WbeZApPohdStMied15nrySKKrIv6Tb0fCRpNQx~Sf9~Nr0KObodB7V8Zdc~nv01kdqm4QRncQiUd0QhdKVEj6MiCdgi~oTPpy-t89MGhnNxj3zQhp~drfJItXDwiyUzW3NKF0AIQ0GdbsABb7P3YmshziQwLOQ1SmV96q8OZsN47EKoTkkmD~b-Kx4peq6vwUAPzZiHfSm8V7Z5qyFDq32CONFwQamxwGxA__');
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('/home/bfe597e3ef0fe641cf827efc9e3be23c.jpeg') lightgray 50% / cover no-repeat;
         /* background-image: url('..\Library\public\imges\bfe597e3ef0fe641cf827efc9e3be23c.jpeg'); */
         background-size: cover;
         background-repeat: no-repeat;
@@ -839,20 +808,19 @@
     .div1 {
 
         display: flex;
-
+        margin: 10px;
         width: 33%;
         gap: 10px;
     }
 
     .div1 .box img {
         width: 8px;
-
     }
 
     .div1 .box button {
         display: block;
         display: flex;
-        padding: 6px 35px;
+        padding: 2px 20px;
         color: white;
         border: 1px solid #5A2006;
         border-radius: 16px;
@@ -1027,33 +995,10 @@
 
 @media(max-width:600px) {
 
-    .parent2 {
-        display: inline-block;
-        display: flex;
-        margin-left: 6px;
-        margin-right: 6px;
+    .mainBox{
         margin-top: 20px;
+        margin-bottom: 30px;
     }
-
-    .parent2 div input {
-        /* width: 70%; */
-        /* width: 600px; */
-        border-radius: 8px;
-        padding: 8px;
-        border: 1px solid rgba(128, 128, 128, 0.294);
-        ;
-        background-color: rgba(128, 128, 128, 0.294);
-    }
-
-    .parent2 button {
-        margin-left: 40px;
-        /* width: 107px; */
-        border-radius: 8px;
-        background-color: #5A2006;
-        color: white;
-        border: 1px solid #5A2006;
-    }
-
     .parent2 select {
         margin-left: 40px;
         /* width: 107px; */
@@ -1080,7 +1025,7 @@
         margin-left: 6px;
         margin-right: 6px;
         margin-top: 20px;
-        background-image: url('https://s3-alpha-sig.figma.com/img/e6a9/ff0a/bfe597e3ef0fe641cf827efc9e3be23c?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iakVdCscD0mTNjDaLzI~HyIqdv73-is4AjL-EjT2nMPUICxhfCSYlfsjCz-oeXAdT49VhEwvAZ1nEfFdwWDIQFlY96pn7aeyPTHjs3rtVHY-n416XQ5WbeZApPohdStMied15nrySKKrIv6Tb0fCRpNQx~Sf9~Nr0KObodB7V8Zdc~nv01kdqm4QRncQiUd0QhdKVEj6MiCdgi~oTPpy-t89MGhnNxj3zQhp~drfJItXDwiyUzW3NKF0AIQ0GdbsABb7P3YmshziQwLOQ1SmV96q8OZsN47EKoTkkmD~b-Kx4peq6vwUAPzZiHfSm8V7Z5qyFDq32CONFwQamxwGxA__');
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('/home/bfe597e3ef0fe641cf827efc9e3be23c.jpeg') lightgray 50% / cover no-repeat;
         /* background-image: url('..\Library\public\imges\bfe597e3ef0fe641cf827efc9e3be23c.jpeg'); */
         background-size: cover;
         background-repeat: no-repeat;
