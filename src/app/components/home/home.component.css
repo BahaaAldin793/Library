@@ -25,10 +25,11 @@
         background-color: #5A2006;
         color: white;
     } */
-    .mainBox{
+    .mainBox {
         margin-top: 20px;
         margin-bottom: 30px;
     }
+
     .parent2 select:hover {
         background-color: #C17A46;
         border: 1px solid #C17A46;
@@ -122,6 +123,13 @@
         display: flex;
         margin-left: 100px;
         margin-right: 100px;
+    }
+
+    .img img {
+        width: 100px;
+        align-self: stretch;
+        border-radius: 8px;
+        background: lightgray 50% / cover no-repeat;
     }
 
     .section2_1 {
@@ -346,7 +354,7 @@
 
 @media (min-width: 769px) and (max-width: 1199px) {
 
-    .mainBox{
+    .mainBox {
         margin-top: 20px;
         margin-bottom: 30px;
     }
@@ -627,10 +635,11 @@
 
 @media (min-width: 500px) and (max-width: 768px) {
 
-    .mainBox{
+    .mainBox {
         margin-top: 20px;
         margin-bottom: 30px;
     }
+
     /* .parent2 {
         display: inline-block;
         display: flex;
@@ -995,10 +1004,11 @@
 
 @media(max-width:600px) {
 
-    .mainBox{
+    .mainBox {
         margin-top: 20px;
         margin-bottom: 30px;
     }
+
     .parent2 select {
         margin-left: 40px;
         /* width: 107px; */

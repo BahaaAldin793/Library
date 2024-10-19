@@ -7,17 +7,19 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from '../home/home.component';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 @Component({
   selector: 'app-log-in',
   standalone: true,
-  imports: [FormsModule, ReactiveFormsModule, HttpClientModule, RouterOutlet, LogInComponent, RouterLink, RouterModule,CommonModule,HomeComponent],
+  imports: [FormsModule, ReactiveFormsModule, HttpClientModule, RouterOutlet, LogInComponent, RouterLink, RouterModule,CommonModule,HomeComponent,NavbarComponent],
   templateUrl: './log-in.component.html',
   styleUrls: ['./log-in.component.css']
 })
 export class LogInComponent {
   
   public loginForm!: FormGroup
+  public isLoggedIn: boolean = false;
 
   constructor(private formbuilder: FormBuilder,private http: HttpClient, private router: Router) { }
 
@@ -35,7 +37,9 @@ export class LogInComponent {
       });
       if(user){
         alert('Login Succesful');
-        this.loginForm.reset()
+        localStorage.setItem('isLoggedIn', 'true');  // Save login status
+        localStorage.setItem('userName', user.name);  // Optionally store user name
+        this.loginForm.reset();
       this.router.navigate(["home"]) //waiting for making home page............................................
       }else{
         alert("The email or password are wrong, please try again")

@@ -1,5 +1,5 @@
 <nav class="navbar">
-  <div class="navbar-logo">
+  <div class="navbar-logo" routerLink="/home">
     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="20" viewBox="0 0 36 20" fill="none">
       <path d="M0 1.61827H4.52282V18.4232H0V1.61827Z" fill="#5A2006"/>
       <path d="M4.52282 1.61827H0L4.52282 0.0415039V1.61827Z" fill="#5A2006"/>
@@ -41,8 +41,14 @@
   </div>
 
   <div class="navbar-buttons" [class.active]="menuOpen">
-    <button class="btn login-btn " routerLink="/login">Login</button>
+    <div id="buttons" style="display: flex;" *ngIf="!isLoggedIn">
+    <button class="btn login-btn "  routerLink="/login">Login</button>
     <button class="btn register-btn" routerLink="/signUp">Register</button>
+    </div>
+    <div id="icon" *ngIf="isLoggedIn">
+      <p>{{ userName }}</p><img src="profile/Profile Image.png" routerLink="/profile">
+      <button class="btn login-btn" (click)="logout()">Logout</button>
+    </div>
   </div>
   
   <div class="menu-toggle" (click)="toggleMenu()">

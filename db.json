@@ -5,14 +5,17 @@
       "name": "Bahaa Aldin Abdel Nasser",
       "email": "bdalnaser069@gmail.com",
       "password": "123456789",
-      "terms": true
+      "terms": true,
+      "personal-img":"profile/Profile Image.png"
     },
     {
       "id": "202c",
       "name": "Bahaa Aldin Abdel Nasser",
       "email": "bahaaldin.abdel500258@compit.aun.edu.eg",
       "password": "jkfgjgdhjcghj",
-      "terms": true
+      "terms": true,
+      "personal-img":"profile/Profile Image.png"
+
     }
   ]
 }
