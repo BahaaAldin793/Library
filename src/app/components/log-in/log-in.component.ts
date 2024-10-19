@@ -6,11 +6,12 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { HomeComponent } from '../home/home.component';
 
 @Component({
   selector: 'app-log-in',
   standalone: true,
-  imports: [FormsModule, ReactiveFormsModule, HttpClientModule, RouterOutlet, LogInComponent, RouterLink, RouterModule,CommonModule],
+  imports: [FormsModule, ReactiveFormsModule, HttpClientModule, RouterOutlet, LogInComponent, RouterLink, RouterModule,CommonModule,HomeComponent],
   templateUrl: './log-in.component.html',
   styleUrls: ['./log-in.component.css']
 })
