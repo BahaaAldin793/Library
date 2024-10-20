@@ -57,7 +57,8 @@ body {
   text-align: center;
   cursor: pointer;
   color: white;
-  margin-left: 20px
+  margin-left: 20px;
+  margin: 5px;
 }
 
 .register-btn {
@@ -74,6 +75,7 @@ body {
   font-weight: 700;
   text-align: center;
   color: #5A2006;
+  margin: 5px;
 }
 
 /* Menu Toggle Button */
@@ -142,11 +144,12 @@ body {
   }
 }
 
-#icon{
+#icon {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 #icon img {
   width: 50px;
   height: 50px;
@@ -168,8 +171,18 @@ body {
   /* 16.5px */
   letter-spacing: 0.055px;
 }
-@media(max-width:600px){
-  .navbar{
-    width: 170%;
+
+@media(max-width:1200px) {
+  .navbar {
+    min-width: 768px;
+    max-width: 1200px;
+  }
+}
+
+@media(max-width:768px) {
+  .navbar {
+    height: 60px;
+    min-width: 360px;
+    max-width: 768px;
   }
 }

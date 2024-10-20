@@ -40,7 +40,7 @@ export class LogInComponent {
         localStorage.setItem('isLoggedIn', 'true');  // Save login status
         localStorage.setItem('userName', user.name);  // Optionally store user name
         this.loginForm.reset();
-      this.router.navigate(["home"]) //waiting for making home page............................................
+      this.router.navigate(["settings"]) //waiting for making home page............................................
       }else{
         alert("The email or password are wrong, please try again")
       }

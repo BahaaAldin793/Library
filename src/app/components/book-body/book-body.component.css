@@ -1,6 +1,7 @@
-*{
+* {
     font-family: Bricolage Grotesque;
 }
+
 .all {
     display: flex;
     padding: 1.5rem;
@@ -16,121 +17,134 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
-.cntr{
+
+.cntr {
     border-radius: var(--Space-1rem, 1rem);
-background: #FFF;
-display: flex;
-padding: var(--Space-1rem, 1rem);
-align-items: flex-start;
-gap: var(--Space-1rem, 1rem);
-align-self: stretch;
+    background: #FFF;
+    display: flex;
+    padding: var(--Space-1rem, 1rem);
+    align-items: flex-start;
+    gap: var(--Space-1rem, 1rem);
+    align-self: stretch;
 }
-.booking{
+
+.booking {
     border-radius: 0.5rem;
     background: #FFF;
     display: flex;
-width: 15.5rem;
-padding: var(--Space-1rem, 1rem);
-flex-direction: column;
-align-items: center;
-gap: 0.625rem;
+    width: 15.5rem;
+    padding: var(--Space-1rem, 1rem);
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
 }
-.booking img{
+
+.booking img {
     border-radius: 0.5rem;
     background: url(https://www.rebind.ai/_nuxt/thus_spoke_zarathustra_hd.8ef4473e.png) lightgray 50% / cover no-repeat;
     height: 24rem;
     align-self: stretch;
 }
-.bookButton{
-border-radius: var(--Space-1rem, 1rem);
-border: #5A2006;
-background: var(--Button-main-d, #5A2006);
-display: flex;
-padding: 0.8125rem 1.5rem;
-justify-content: center;
-align-items: center;
-gap: 0.625rem;
-align-self: stretch;
-color: var(--Button-FontColor-active, #FFF);
-text-align: center;
 
-/* Body/Bold */
-font-family: "Bricolage Grotesque";
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 700;
-line-height: 160%; /* 1.4rem */
-letter-spacing: 0.00438rem;
-}
-.requestButton{
+.bookButton {
     border-radius: var(--Space-1rem, 1rem);
-border: 1.5px solid var(--Button-main-d, #5A2006);
-background: #FFF;
-display: flex;
-padding: 0.8125rem 1.5rem;
-justify-content: center;
-align-items: center;
-gap: 0.625rem;
-align-self: stretch;
+    border: #5A2006;
+    background: var(--Button-main-d, #5A2006);
+    display: flex;
+    padding: 0.8125rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+    color: var(--Button-FontColor-active, #FFF);
+    text-align: center;
 
-color: var(--Button-main-d, #5A2006);
-text-align: center;
-
-/* Body/Bold */
-font-family: "Bricolage Grotesque";
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 700;
-line-height: 160%; /* 1.4rem */
-letter-spacing: 0.00438rem;
+    /* Body/Bold */
+    font-family: "Bricolage Grotesque";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    /* 1.4rem */
+    letter-spacing: 0.00438rem;
 }
 
-.stars{
+.requestButton {
+    border-radius: var(--Space-1rem, 1rem);
+    border: 1.5px solid var(--Button-main-d, #5A2006);
+    background: #FFF;
+    display: flex;
+    padding: 0.8125rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+
+    color: var(--Button-main-d, #5A2006);
+    text-align: center;
+
+    /* Body/Bold */
+    font-family: "Bricolage Grotesque";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    /* 1.4rem */
+    letter-spacing: 0.00438rem;
+}
+
+.stars {
     border-radius: 2.4rem;
     display: flex;
-width: 12rem;
-height: 2rem;
-align-items: center;
-gap: 0.5rem;
-flex-shrink: 0;
+    width: 12rem;
+    height: 2rem;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
 }
-.starEmpty{
+
+.starEmpty {
     width: 2rem;
-height: 2rem;
-flex-shrink: 0;
+    height: 2rem;
+    flex-shrink: 0;
 }
 
-.waiting{
+.waiting {
     display: flex;
-flex-direction: column;
-align-items: center;
-align-self: stretch;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
 }
-.waiting h5{
-    color: var(--BG-Black, #000);
-text-align: center;
 
-/* Body/Medium */
-font-family: "Bricolage Grotesque";
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 500;
-line-height: 160%; /* 1.4rem */
-letter-spacing: 0.00875rem;
-width: 15.125rem;
-}
-.waiting h3{
+.waiting h5 {
     color: var(--BG-Black, #000);
-text-align: center;
+    text-align: center;
 
-/* H4/Bold */
-font-family: "Bricolage Grotesque";
-font-size: 2rem;
-font-style: normal;
-font-weight: 700;
-line-height: 130%; /* 2.6rem */
+    /* Body/Medium */
+    font-family: "Bricolage Grotesque";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 1.4rem */
+    letter-spacing: 0.00875rem;
+    width: 15.125rem;
 }
-.rit{
+
+.waiting h3 {
+    color: var(--BG-Black, #000);
+    text-align: center;
+
+    /* H4/Bold */
+    font-family: "Bricolage Grotesque";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 2.6rem */
+}
+
+.rit {
     display: flex;
     padding: var(--Space-1rem, 1rem);
     flex-direction: column;
@@ -141,29 +155,34 @@ line-height: 130%; /* 2.6rem */
     border-radius: 0.5rem;
     background: #FFF;
 }
-.inHead{
-    display: flex;
-justify-content: center;
-align-items: flex-start;
-gap: 0.625rem;
-align-self: stretch;
-}
-.bookTitle{
-color: var(--BG-Black, #000);
 
-/* H4/Bold */
-font-family: "Bricolage Grotesque";
-font-size: 2rem;
-font-style: normal;
-font-weight: 700;
-line-height: 130%; /* 2.6rem */
-flex: 1 0 0;
+.inHead {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
 }
-.bookmarkicn{
+
+.bookTitle {
+    color: var(--BG-Black, #000);
+
+    /* H4/Bold */
+    font-family: "Bricolage Grotesque";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 2.6rem */
+    flex: 1 0 0;
+}
+
+.bookmarkicn {
     width: 2.5rem;
     height: 2.5rem;
 }
-.category{
+
+.category {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -171,41 +190,46 @@ flex: 1 0 0;
     display: flex;
     margin: 5px;
 }
-.category h5{
-color: var(--BG-Black, #000);
 
-/* Body/Bold */
-font-family: "Bricolage Grotesque";
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 700;
-line-height: 160%; /* 1.4rem */
-letter-spacing: 0.00438rem;
+.category h5 {
+    color: var(--BG-Black, #000);
+
+    /* Body/Bold */
+    font-family: "Bricolage Grotesque";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    /* 1.4rem */
+    letter-spacing: 0.00438rem;
 }
-.category .cats{
+
+.category .cats {
     border-radius: 0.5rem;
-background: var(--Button-main-d, #5A2006);
-display: flex;
-flex-direction: row;
-padding: 0.375rem;
-justify-content: center;
-align-items: center;
-gap: 0.625rem;
-color: white;
- font-size: 11px;
- font-family: Bricolage Grotesque;
- font-weight: 700;
- line-height: 16.50px;
- letter-spacing: 0.06px;
- word-wrap: break-word
-}
-.boodData{
+    background: var(--Button-main-d, #5A2006);
     display: flex;
-align-items: center;
-gap: 0.5rem;
-align-self: stretch;
+    flex-direction: row;
+    padding: 0.375rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    color: white;
+    font-size: 11px;
+    font-family: Bricolage Grotesque;
+    font-weight: 700;
+    line-height: 16.50px;
+    letter-spacing: 0.06px;
+    word-wrap: break-word
 }
-.boodData .publishDate{
+
+.boodData {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.boodData .publishDate {
     border-radius: 0.5rem;
     border: 1.5px solid var(--Button-main-d, #5A2006);
     background: #FFF;
@@ -217,53 +241,64 @@ align-self: stretch;
     flex: 1 0 0;
     align-self: stretch;
 }
-.ratingStars{
+
+.ratingStars {
     color: #5A2006;
 }
-.bdata{
+
+.bdata {
     border: solid #5A2006 1px;
     color: #5A2006;
     line-height: 0%;
 }
-.bout{
+
+.bout {
     color: black;
 }
-.reviews{
+
+.reviews {
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 0.5rem;
-align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
 }
-.reviews h2{
+
+.reviews h2 {
     color: var(--BG-Black, #000);
 
-/* Body Large/Bold */
-font-family: "Bricolage Grotesque";
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: 140%; /* 2.1rem */
-letter-spacing: 0.0075rem;
-align-self: stretch;
+    /* Body Large/Bold */
+    font-family: "Bricolage Grotesque";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 2.1rem */
+    letter-spacing: 0.0075rem;
+    align-self: stretch;
 }
-.addreviews{
+
+.addreviews {
     display: flex;
-align-items: center;
-gap: 0.5rem;
-align-self: stretch;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
 }
-.addreviews input{
+
+.addreviews input {
     border: solid #5A2006 1px;
     background-color: #F2F2F2;
 }
-.ratieStars .bi-star-fill{
+
+.ratieStars .bi-star-fill {
     color: #5A2006;
 }
-.bookmarkicn{
+
+.bookmarkicn {
     cursor: pointer;
 }
-.addComment{
+
+.addComment {
     background-color: #5A2006;
     color: white;
     border-radius: 20px;
@@ -271,11 +306,14 @@ align-self: stretch;
     padding: 1%;
     border: #5A2006 solid 1px;
 }
-@media (0px <= width <= 767px) {
-    .all{
+
+@media (0px <=width <=767px) {
+    .all {
         flex-direction: column;
+        height: 90%;
     }
-    .cntr{
+
+    .cntr {
         display: flex;
         padding: 1.5rem;
         flex-direction: column;
@@ -284,8 +322,9 @@ align-self: stretch;
         align-self: stretch;
         border-radius: 1rem;
         background: #FFF;
-        }
-    .rating{
+    }
+
+    .rating {
         display: flex;
         align-items: center;
         align-content: center;
@@ -293,15 +332,17 @@ align-self: stretch;
         align-self: stretch;
         flex-wrap: wrap;
     }
-    .boodData{
+
+    .boodData {
         display: flex;
-align-items: center;
-align-content: center;
-gap: 0.5rem;
-align-self: stretch;
-flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        gap: 0.5rem;
+        align-self: stretch;
+        flex-wrap: wrap;
     }
-    .bookHead{
+
+    .bookHead {
         display: none;
     }
 }
