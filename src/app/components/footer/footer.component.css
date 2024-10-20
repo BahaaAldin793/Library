@@ -42,3 +42,9 @@
         height: auto;
     }
     }
+
+    @media(max-width:600px){
+      footer{
+        width: 170%;
+      }
+    }

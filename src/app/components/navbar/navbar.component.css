@@ -30,7 +30,7 @@ body {
 .navbar-links ul li a {
   color: #5A2006;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -148,9 +148,9 @@ body {
   justify-content: center;
 }
 #icon img {
-  width: 32px;
-  height: 32px;
-  border-radius: 16px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
   border: 1.5px solid var(--Button-main-d, #5A2006);
   background: var(--Avatar-Male-Jackson, lightgray 50% / cover no-repeat);
 }
@@ -161,10 +161,15 @@ body {
 
   /* Small/Bold */
   font-family: "Bricolage Grotesque";
-  font-size: 11px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
   /* 16.5px */
   letter-spacing: 0.055px;
+}
+@media(max-width:600px){
+  .navbar{
+    width: 170%;
+  }
 }
